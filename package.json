@@ -1,0 +1,14 @@
+{
+  "name": "fluent-ui-radio-bug-repro",
+  "scripts": {
+    "start": "esbuild ./index.ts --outdir=./ --bundle --servedir=./"
+  },
+  "dependencies": {
+    "@fluentui/web-components": "3.0.0-beta.70",
+    "@microsoft/fast-element": "2.0.0"
+  },
+  "devDependencies": {
+    "@fluentui/tokens": "1.0.0-alpha.20",
+    "esbuild": "^0.24.0"
+  }
+}
